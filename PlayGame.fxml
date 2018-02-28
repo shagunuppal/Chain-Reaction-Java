@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="root1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="789.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="grid.transsetting">
+   <children>
+      <ImageView fitHeight="806.0" fitWidth="748.0" pickOnBounds="true">
+         <image>
+            <Image url="@12.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <MenuButton layoutX="73.0" layoutY="212.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="162.0" style="-fx-background-radius: 20000; -fx-background-color: ORANGE;" text="Number Of Players" textAlignment="CENTER" wrapText="true">
+              <items>
+                <MenuItem fx:id="but2" mnemonicParsing="false" onAction="#set_playercount" text="      2 Players         " />
+                  <MenuItem fx:id="but3" mnemonicParsing="false" onAction="#set_playercount" text="      3 Players         " />
+                  <MenuItem fx:id="but4" mnemonicParsing="false" onAction="#set_playercount" text="      4 Players         " />
+                  <MenuItem fx:id="but5" mnemonicParsing="false" onAction="#set_playercount" text="      5 Players         " />
+                  <MenuItem fx:id="but6" mnemonicParsing="false" onAction="#set_playercount" text="      6 Players         " />
+                  <MenuItem fx:id="but7" mnemonicParsing="false" onAction="#set_playercount" text="      7 Players         " />
+                  <MenuItem fx:id="but8" mnemonicParsing="false" onAction="#set_playercount" text="      8 Players         " />
+              </items>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </MenuButton>
+            <MenuButton layoutX="490.0" layoutY="214.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="162.0" style="-fx-background-radius: 20000; -fx-background-color: LIGHTBLUE;" text="Grid Size">
+               <items>
+                  <MenuItem fx:id="gri96" mnemonicParsing="false" onAction="#set_gridsize" text="           9 X 6        " />
+                  <MenuItem fx:id="gri1510" mnemonicParsing="false" onAction="#set_gridsize" text="           15 X 10        " />
+               </items>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </MenuButton>
+            <Label layoutX="198.0" layoutY="14.0" prefHeight="86.0" prefWidth="315.0" text="Game Options" textFill="#e8e0e0">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </Label>
+            <Button fx:id="conti" layoutX="560.0" layoutY="678.0" mnemonicParsing="false" onAction="#cont" prefHeight="54.0" prefWidth="124.0" style="-fx-background-color: #38DE32; -fx-background-radius: 20;" text="Continue">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="conti1" layoutX="45.0" layoutY="673.0" mnemonicParsing="false" onAction="#back" prefHeight="54.0" prefWidth="124.0" style="-fx-background-color: #38DE32; -fx-background-radius: 20;" text="Back">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="root1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="789.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="grid.PreferencesController">
+   <children>
+      <ImageView fitHeight="792.0" fitWidth="736.0" pickOnBounds="true">
+         <image>
+            <Image url="@12.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="835.0" prefWidth="711.0">
+         <children>
+            <ListView layoutX="99.0" layoutY="158.0" opacity="0.35" prefHeight="572.0" prefWidth="513.0" style="-fx-background-color: BLACK;" />
+            <Label layoutX="18.0" layoutY="170.0" opacity="0.43" prefHeight="532.0" prefWidth="675.0" style="-fx-background-color: BLACK;" />
+            <Button fx:id="red" layoutX="546.0" layoutY="334.0" mnemonicParsing="false" onAction="#setcol" prefHeight="102.0" prefWidth="98.0" style="-fx-background-radius: 20000; -fx-background-color: #FB5656;" text="RED" textFill="#f8f0f0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="yellow" layoutX="229.0" layoutY="199.0" mnemonicParsing="false" onAction="#setcol" prefHeight="102.0" prefWidth="98.0" style="-fx-background-radius: 20000; -fx-background-color: #FEE717;" text="YELLOW">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="lblue" layoutX="563.0" layoutY="505.0" mnemonicParsing="false" onAction="#setcol" prefHeight="102.0" prefWidth="98.0" style="-fx-background-radius: 20000; -fx-background-color: LIGHTBLUE;" text="LIGHT BLUE" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="orange" layoutX="432.0" layoutY="649.0" mnemonicParsing="false" onAction="#setcol" prefHeight="102.0" prefWidth="98.0" style="-fx-background-radius: 20000; -fx-background-color: ORANGE;" text="ORANGE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="blue" layoutX="84.0" layoutY="505.0" mnemonicParsing="false" onAction="#setcol" prefHeight="102.0" prefWidth="98.0" style="-fx-background-radius: 20000; -fx-background-color: #486FEF;" text="BLUE" textFill="#ebe0e0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="green" layoutX="80.0" layoutY="333.0" mnemonicParsing="false" onAction="#setcol" prefHeight="102.0" prefWidth="98.0" style="-fx-background-radius: 20000; -fx-background-color: #17E333;" text="GREEN">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="white" layoutX="417.0" layoutY="202.0" mnemonicParsing="false" onAction="#setcol" prefHeight="102.0" prefWidth="98.0" style="-fx-background-radius: 20000; -fx-background-color: WHITE;" text="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="173.0" layoutY="9.0" prefHeight="73.0" prefWidth="400.0" text="Choose Color" textFill="#eee7e7">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+            <Button fx:id="magenta" layoutX="231.0" layoutY="648.0" mnemonicParsing="false" onAction="#setcol" prefHeight="102.0" prefWidth="98.0" style="-fx-background-radius: 20000; -fx-background-color: MAGENTA;" text="MAGENTA">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="cont" layoutX="553.0" layoutY="74.0" mnemonicParsing="false" onAction="#cont" prefHeight="65.0" prefWidth="141.0" style="-fx-background-radius: 20000; -fx-background-color: GREEN;" text="Confirm" textFill="#fffbfb">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</StackPane>
