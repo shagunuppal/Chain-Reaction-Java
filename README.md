@@ -51,7 +51,7 @@ b. Transition should be visible when balls are splitting.<br>
 6. Also save the state in abnormal conditions (user presses cross, presses home button (if any), etc.)<br>
 
 <p float="left">
-  <img src="screen1.png" height="400" width="350" />
-  <img src="screen2.png" height="400" width="350" /> 
+  <img src="screen1.png" height="400" width="380" />
+  <img src="screen2.png" height="400" width="380" /> 
   <img src="screen3.png" height="350" width="300" />
 </p>
