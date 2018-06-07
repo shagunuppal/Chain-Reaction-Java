@@ -50,6 +50,8 @@ b. Transition should be visible when balls are splitting.<br>
 5. Save the state of the game at any point of time.<br>
 6. Also save the state in abnormal conditions (user presses cross, presses home button (if any), etc.)<br>
 
-<img src = "screen1.png" width="400" height="400">
-<img src = "screen2.png" width="400" height="400">
-<img src = "screen3.png" width="400" height="400">
+<p float="left">
+  <img src="/screen.png" width="100" />
+  <img src="/screen.png" width="100" /> 
+  <img src="/screen.png" width="100" />
+</p>
