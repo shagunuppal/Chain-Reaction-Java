@@ -52,8 +52,8 @@ b. Transition should be visible when balls are splitting.<br>
 
 <p float="left">
   <center>
-  <img src="screen1.png" height="400" width="400" />
-  <img src="screen2.png" height="400" width="400" /> 
+  <img src="screen1.png" height="400" width="350" />
+  <img src="screen2.png" height="400" width="350" /> 
   <img src="screen3.png" height="350" width="300" />
   </center>
 </p>
