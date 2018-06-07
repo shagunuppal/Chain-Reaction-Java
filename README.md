@@ -1,11 +1,12 @@
 # Chain-Reaction-Java
-<b> Course Project for Advanced Programming (CSE201)<b><br>
+<b> Course Project for Advanced Programming (CSE201)</b><br>
 <b> Instructor : Dr. Vivek Kumar </b> 
 <br>
 This project aims at building a multi-player arcade game.
 It is based on creating a JavaFX application for a multiplayer game - Chain Reaction. It's a strategy game for 2to 8 players.The objective of this game is to take control of the board by eliminating your  opponents.
 
-<b> Rules of the Game </b>
+<b> Rules of the Game </b><br>
+
 1. The gameplay takes place in a m x n board.
 2. For each cell in the board, we define a critical mass. The critical mass is equal to the
 number of orthogonally adjacent cells. That would be 4 for usual cells, 3 for cells in
@@ -25,25 +26,26 @@ colors.
 6. The winner is the one who eliminates every other player's orbs.
 
 
-<b> Structure and Features of the Game </b>
+<b> Structure and Features of the Game </b><br>
+
 1. Main page must provide:<br><\t>
-a. Option to choose number of players (2 to 8).<br><\t>
-b. Option to choose grid size, (9x6 or 15x10).<br><\t>
-c. Button to start the game.<br><\t>
-d. Resume Button - This button should only be visible on main page when the last game played has not finished and a move has been made. The game will resume from the last saved state.<br><\t>
+a. Option to choose number of players (2 to 8).<br>
+b. Option to choose grid size, (9x6 or 15x10).<br>
+c. Button to start the game.<br>
+d. Resume Button - This button should only be visible on main page when the last game played has not finished and a move has been made. The game will resume from the last saved state.<br>
 e. Settings Button - To open the settings page.<br>
-2. Settings page:<br><\t>
-a. It should contain a list of 8 players.<br><\t>
-b. Clicking on a row corresponding to a player should allow to configure the colour of the ball for that player.<br><\t>
+2. Settings page:<br>
+a. It should contain a list of 8 players.<br>
+b. Clicking on a row corresponding to a player should allow to configure the colour of the ball for that player.<br>
 c. Ensure that colour of the balls are different for each player in the game.<br>
-3. When the game starts:<br><\t>
-a. A GUI similar to that of the game in playstore.<br><\t>
-b. Option to redo the last step.<br><\t>
-c. A drop down with two options:<br><\t>
-i. Start the game again<br><\t>
-ii. Exit and go to main page<br><\t>
-4. Animation:<br><\t>
-a. If more than one ball in a cell, then they must rotate as a unit within the cell.<br><\t>
-b. Transition should be visible when balls are splitting.<br><\t>
-5. Save the state of the game at any point of time.<br><\t>
-6. Also save the state in abnormal conditions (user presses cross, presses home button (if any), etc.)<br><\t>
+3. When the game starts:<br>
+a. A GUI similar to that of the game in playstore.<br>
+b. Option to redo the last step.<br>
+c. A drop down with two options:<br>
+i. Start the game again<br>
+ii. Exit and go to main page<br>
+4. Animation:<br>
+a. If more than one ball in a cell, then they must rotate as a unit within the cell.<br>
+b. Transition should be visible when balls are splitting.<br>
+5. Save the state of the game at any point of time.<br>
+6. Also save the state in abnormal conditions (user presses cross, presses home button (if any), etc.)<br>
