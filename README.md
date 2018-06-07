@@ -49,3 +49,7 @@ a. If more than one ball in a cell, then they must rotate as a unit within the c
 b. Transition should be visible when balls are splitting.<br>
 5. Save the state of the game at any point of time.<br>
 6. Also save the state in abnormal conditions (user presses cross, presses home button (if any), etc.)<br>
+
+<img src = "screen1.png">
+<img src = "screen2.png">
+<img src = "screen3.png">
