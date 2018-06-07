@@ -28,7 +28,7 @@ colors.
 
 <b> Structure and Features of the Game </b><br>
 
-1. Main page must provide:<br><\t>
+1. Main page must provide:<br>
 a. Option to choose number of players (2 to 8).<br>
 b. Option to choose grid size, (9x6 or 15x10).<br>
 c. Button to start the game.<br>
