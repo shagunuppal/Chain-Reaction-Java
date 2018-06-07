@@ -1,7 +1,7 @@
 # Chain-Reaction-Java
 <b> Course Project for Advanced Programming (CSE201)<b><br>
-<b> Instructor : Dr. Vivek Kumar </b><br>
-
+<b> Instructor : Dr. Vivek Kumar </b> 
+<br>
 This project aims at building a multi-player arcade game.
 It is based on creating a JavaFX application for a multiplayer game - Chain Reaction. It's a strategy game for 2to 8 players.The objective of this game is to take control of the board by eliminating your  opponents.
 
@@ -26,28 +26,24 @@ colors.
 
 
 <b> Structure and Features of the Game </b>
-1. Main page must provide:
-a. Option to choose number of players (2 to 8).
-b. Option to choose grid size, (9x6 or 15x10).
-c. Button to start the game.
-d. Resume Button - This button should only be visible on main page when the last
-game played has not finished and a move has been made. The game will resume
-from the last saved state.
-e. Settings Button - To open the settings page.
-2. Settings page:
-a. It should contain a list of 8 players.
-b. Clicking on a row corresponding to a player should allow to configure the colour
-of the ball for that player.
-c. Ensure that colour of the balls are different for each player in the game.
-3. When the game starts:
-a. A GUI similar to that of the game in playstore.
-b. Option to redo the last step.
-c. A drop down with two options:
-i. Start the game again
-ii. Exit and go to main page
-4. Animation:
-a. If more than one ball in a cell, then they must rotate as a unit within the cell.
-b. Transition should be visible when balls are splitting.
-5. Save the state of the game at any point of time.
-6. Also save the state in abnormal conditions (user presses cross, presses home button (if
-any), etc.)
+1. Main page must provide:<br><\t>
+a. Option to choose number of players (2 to 8).<br><\t>
+b. Option to choose grid size, (9x6 or 15x10).<br><\t>
+c. Button to start the game.<br><\t>
+d. Resume Button - This button should only be visible on main page when the last game played has not finished and a move has been made. The game will resume from the last saved state.<br><\t>
+e. Settings Button - To open the settings page.<br>
+2. Settings page:<br><\t>
+a. It should contain a list of 8 players.<br><\t>
+b. Clicking on a row corresponding to a player should allow to configure the colour of the ball for that player.<br><\t>
+c. Ensure that colour of the balls are different for each player in the game.<br>
+3. When the game starts:<br><\t>
+a. A GUI similar to that of the game in playstore.<br><\t>
+b. Option to redo the last step.<br><\t>
+c. A drop down with two options:<br><\t>
+i. Start the game again<br><\t>
+ii. Exit and go to main page<br><\t>
+4. Animation:<br><\t>
+a. If more than one ball in a cell, then they must rotate as a unit within the cell.<br><\t>
+b. Transition should be visible when balls are splitting.<br><\t>
+5. Save the state of the game at any point of time.<br><\t>
+6. Also save the state in abnormal conditions (user presses cross, presses home button (if any), etc.)<br><\t>
