@@ -3,7 +3,7 @@
 <b> Instructor : Dr. Vivek Kumar </b> 
 <br>
 This project aims at building a multi-player arcade game.
-It is based on creating a JavaFX application for a multiplayer game - Chain Reaction. It's a strategy game for 2to 8 players.The objective of this game is to take control of the board by eliminating your  opponents.
+It is based on creating a JavaFX application for a multiplayer game - Chain Reaction. It's a strategy game for 2 to 8 players.The objective of this game is to take control of the board by eliminating your  opponents.
 
 <b> Rules of the Game </b><br>
 
