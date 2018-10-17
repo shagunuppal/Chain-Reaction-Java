@@ -2,6 +2,12 @@
 <b> Course Project for Advanced Programming (CSE201)</b><br>
 <b> Instructor : Dr. Vivek Kumar </b> 
 <br>
+<br>
+
+Team Size: 2
+<br><br>
+
+
 This project aims at building a multi-player arcade game.
 It is based on creating a JavaFX application for a multiplayer game - Chain Reaction. It's a strategy game for 2 to 8 players.The objective of this game is to take control of the board by eliminating your  opponents.
 
