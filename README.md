@@ -1,10 +1,7 @@
 # Chain-Reaction-Java
 <b> Course Project for Advanced Programming (CSE201)</b><br>
 <b> Instructor : Dr. Vivek Kumar </b> 
-<br>
-<br>
-
-Team Size: 2
+<b>Team Size:</b> 2
 <br><br>
 
 
